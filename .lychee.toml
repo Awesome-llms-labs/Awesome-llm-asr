@@ -1,0 +1,30 @@
+# lychee configuration for awesome-llm-asr
+# Excludes are regexes — domain-bare patterns cover www/subdomains.
+
+exclude = [
+  # Bot-blocking / aggressive anti-automation
+  "deepgram\\.com",
+  "assemblyai\\.com",
+  "rev\\.com",
+  "otter\\.ai",
+  "soniox\\.com",
+  "gladia\\.io",
+  "cartesia\\.ai",
+  "elevenlabs\\.io",
+  "speechmatics\\.com",
+  "openai\\.com",
+  "fireworks\\.ai",
+  "vatis\\.tech",
+  "symbl\\.ai",
+  "ai\\.google\\.dev",
+  "moonshine\\.ai",
+  "ultravox\\.ai",
+  # Rate-limit heavy
+  "huggingface\\.co",
+  "arxiv\\.org",
+]
+
+# Be lenient with transient failures but strict about real breakage
+max_retries = 2
+timeout = 20
+accept = [200, 201, 202, 203, 204, 206]
