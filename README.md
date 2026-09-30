@@ -18,8 +18,8 @@ A curated list of **LLM-era automatic speech recognition** (speech-to-text): fou
 - [Toolkits & Runtimes](#toolkits--runtimes) — 12 entries
 - [Streaming & Real-Time ASR](#streaming--real-time-asr) — 6 entries
 - [Edge & On-Device](#edge--on-device) — 4 entries
-- [Benchmarks & Evals](#benchmarks-evals) — 12 entries
-- [Training & Fine-Tuning](#training-fine-tuning) — 3 entries
+- [Benchmarks & Evals](#benchmarks--evals) — 12 entries
+- [Training & Fine-Tuning](#training--fine-tuning) — 3 entries
 - [Diarization](#diarization) — 3 entries
 - [Post-Processing](#post-processing) — 3 entries
 
