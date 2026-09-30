@@ -15,9 +15,9 @@ A curated list of **LLM-era automatic speech recognition** (speech-to-text): fou
 - [Foundation Models](#foundation-models) — 15 entries
 - [Commercial STT APIs](#commercial-stt-apis) — 12 entries
 - [Audio LLMs](#audio-llms) — 10 entries
-- [Toolkits & Runtimes](#toolkits-runtimes) — 12 entries
-- [Streaming & Real-Time ASR](#streaming-real-time-asr) — 6 entries
-- [Edge & On-Device](#edge-on-device) — 4 entries
+- [Toolkits & Runtimes](#toolkits--runtimes) — 12 entries
+- [Streaming & Real-Time ASR](#streaming--real-time-asr) — 6 entries
+- [Edge & On-Device](#edge--on-device) — 4 entries
 - [Benchmarks & Evals](#benchmarks-evals) — 12 entries
 - [Training & Fine-Tuning](#training-fine-tuning) — 3 entries
 - [Diarization](#diarization) — 3 entries
