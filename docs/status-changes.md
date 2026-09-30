@@ -20,6 +20,10 @@ Notable renames, archival notices, dormancy, and license gotchas affecting entri
 - **whisper-jax** — dormant since April 2024; maintainers describe it as effectively archived (superseded by Distil-Whisper / faster-whisper); excluded.
 - **whisper.spm / SwiftWhisper** — stale since May 2024, superseded by WhisperKit; excluded.
 
+## Site notes (2026-09-30)
+
+- **superbbenchmark.org is unreachable** — SUPERB and ML-SUPERB entries point at their official arXiv papers (`2105.01051`, `2305.10615`) instead. The upstream s3prl README notes the domain "will be made to work as soon as possible", i.e. it has been down for an extended period.
+
 ## License gotchas (verified on official sources)
 
 - **SeamlessM4T v2** — `CC-BY-NC-4.0` confirmed verbatim in the repo LICENSE (non-commercial), not MIT as some lists claim.
