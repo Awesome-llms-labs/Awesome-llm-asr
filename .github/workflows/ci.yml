@@ -99,7 +99,7 @@ jobs:
           # TOC anchors must match GitHub's slugger exactly
           def slug(t):
               t = re.sub(r"[^\w\s-]", "", t.lower().strip())
-              return re.sub(r"\s+", "-", t)
+              return re.sub(r"\s", "-", t)  # GitHub maps EACH space to one hyphen (no collapsing)
           toc = readme[readme.index("## Contents"):readme.index("## Choosing the right ASR")]
           headers = re.findall(r"^## (.+)$", readme, re.M)
           header_slugs = {slug(h) for h in headers}
