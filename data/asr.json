@@ -324,6 +324,18 @@
     "unverified_reason": null
   },
   {
+    "name": "Velma Transcribe by Modulate",
+    "description": "Speech-to-text API for batch and streaming transcription with diarization, emotion and accent detection, and PII redaction; usage-based pricing.",
+    "license": "proprietary",
+    "category": "commercial-apis",
+    "repo": null,
+    "homepage": "https://docs.modulate.ai/quickstart",
+    "official_site": "https://www.modulate.ai/api/speech-to-text",
+    "stars": null,
+    "verified": true,
+    "unverified_reason": null
+  },
+  {
     "name": "GPT-4o audio",
     "description": "OpenAI's multimodal GPT-4o with audio input for transcription and speech understanding via the API; API-only, no open weights.",
     "license": "proprietary",

@@ -2,18 +2,18 @@
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Entries](https://img.shields.io/badge/entries-80-blue)](data/asr.json)
+[![Entries](https://img.shields.io/badge/entries-81-blue)](data/asr.json)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
 A curated list of **LLM-era automatic speech recognition** (speech-to-text): foundation ASR models, commercial STT APIs, audio LLMs, toolkits and runtimes, streaming, edge/on-device inference, benchmarks, training resources, diarization, and post-processing.
 
 > **Scope:** speech-to-text only. TTS-only projects are out of scope (toolkits that do both, like sherpa-onnx, are included).
-> **Honesty policy:** every entry was verified on an official source (project repo or official site) as of 2026-09-30 — 80/80 verified. Proprietary APIs and models are explicitly labeled and never presented as open source. Non-commercial licenses (CC-BY-NC-*) are flagged in the entry itself. Machine-readable data lives in [`data/asr.json`](data/asr.json).
+> **Honesty policy:** every entry was verified on an official source (project repo or official site) as of 2026-09-30 — 81/81 verified. Proprietary APIs and models are explicitly labeled and never presented as open source. Non-commercial licenses (CC-BY-NC-*) are flagged in the entry itself. Machine-readable data lives in [`data/asr.json`](data/asr.json).
 
 ## Contents
 
 - [Foundation Models](#foundation-models) — 15 entries
-- [Commercial STT APIs](#commercial-stt-apis) — 12 entries
+- [Commercial STT APIs](#commercial-stt-apis) — 13 entries
 - [Audio LLMs](#audio-llms) — 10 entries
 - [Toolkits & Runtimes](#toolkits--runtimes) — 12 entries
 - [Streaming & Real-Time ASR](#streaming--real-time-asr) — 6 entries
@@ -49,7 +49,7 @@ Open-weight and open-source speech models that define the accuracy frontier — 
 
 ## Commercial STT APIs
 
-Hosted speech-to-text APIs. All proprietary with usage-based pricing — listed for completeness, never as open source. (12 entries)
+Hosted speech-to-text APIs. All proprietary with usage-based pricing — listed for completeness, never as open source. (13 entries)
 
 - [Deepgram](https://deepgram.com/pricing) — Real-time and batch speech-to-text API built around the Nova-3 model family, plus Flux conversational models; usage-based pricing. *(proprietary)*
 - [AssemblyAI](https://www.assemblyai.com/pricing/) — Speech AI API with Universal-3.5 Pro (async and realtime) models, diarization, and audio-intelligence add-ons; usage-based pricing. *(proprietary)*
@@ -63,6 +63,7 @@ Hosted speech-to-text APIs. All proprietary with usage-based pricing — listed 
 - [Soniox](https://soniox.com/pricing) — Streaming and async speech-to-text API (stt-rt-v5 / stt-async-v5) with bundled diarization and translation; usage-based pricing. *(proprietary)*
 - [Symbl.ai](https://docs.symbl.ai/docs/conversation-api/messages) — Conversation-intelligence API with built-in real-time and async transcription plus summaries, entities, and sentiment; usage-based pricing. *(proprietary)*
 - [Vatis Tech](https://vatis.tech/speech-to-text/hindi-speech-to-text) — Speech-to-text API and transcription platform with real-time and on-premise options; usage-based pricing. *(proprietary)*
+- [Velma Transcribe by Modulate](https://docs.modulate.ai/quickstart) — Speech-to-text API for batch and streaming transcription with diarization, emotion and accent detection, and PII redaction; usage-based pricing. *(proprietary)*
 
 ## Audio LLMs
 
